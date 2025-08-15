@@ -1,0 +1,145 @@
+// Mock data for math simulators by grade level
+export const gradeData = {
+  "PRIMARIA": {
+    title: "PRIMARIA",
+    color: "from-green-400 to-emerald-500",
+    icon: "Baby",
+    simulators: [
+      { id: 1, name: "Suma y Resta Básica", url: "https://example.com/suma-resta" },
+      { id: 2, name: "Multiplicación Simple", url: "https://example.com/multiplicacion" },
+      { id: 3, name: "División Básica", url: "https://example.com/division" },
+      { id: 4, name: "Números y Conteo", url: "https://example.com/numeros-conteo" },
+      { id: 5, name: "Figuras Geométricas", url: "https://example.com/figuras" },
+      { id: 6, name: "Medidas y Tiempo", url: "https://example.com/medidas-tiempo" },
+      { id: 7, name: "Fracciones Simples", url: "https://example.com/fracciones" },
+      { id: 8, name: "Patrones y Secuencias", url: "https://example.com/patrones" },
+      { id: 9, name: "Dinero y Monedas", url: "https://example.com/dinero" },
+      { id: 10, name: "Gráficos y Tablas", url: "https://example.com/graficos" },
+      { id: 11, name: "Comparación de Números", url: "https://example.com/comparacion" },
+      { id: 12, name: "Operaciones Mentales", url: "https://example.com/mental" },
+      { id: 13, name: "Problemas Básicos", url: "https://example.com/problemas" },
+      { id: 14, name: "Calendario y Fechas", url: "https://example.com/calendario" },
+      { id: 15, name: "Longitud y Peso", url: "https://example.com/longitud-peso" },
+      { id: 16, name: "Área y Perímetro", url: "https://example.com/area-perimetro" },
+      { id: 17, name: "Probabilidad Simple", url: "https://example.com/probabilidad" },
+      { id: 18, name: "Simetría y Reflexión", url: "https://example.com/simetria" },
+      { id: 19, name: "Coordenadas Básicas", url: "https://example.com/coordenadas" },
+      { id: 20, name: "Juegos Matemáticos", url: "https://example.com/juegos" }
+    ]
+  },
+  "BASICO 1": {
+    title: "BÁSICO 1",
+    color: "from-blue-400 to-cyan-500",
+    icon: "BookOpen",
+    simulators: [
+      { id: 21, name: "Operaciones con Enteros", url: "https://example.com/enteros" },
+      { id: 22, name: "Fracciones Avanzadas", url: "https://example.com/fracciones-av" },
+      { id: 23, name: "Decimales y Porcentajes", url: "https://example.com/decimales" },
+      { id: 24, name: "Ecuaciones Lineales", url: "https://example.com/ecuaciones" },
+      { id: 25, name: "Geometría Plana", url: "https://example.com/geometria-plana" },
+      { id: 26, name: "Proporciones y Razones", url: "https://example.com/proporciones" },
+      { id: 27, name: "Sistemas de Medidas", url: "https://example.com/sistemas" },
+      { id: 28, name: "Estadística Básica", url: "https://example.com/estadistica" },
+      { id: 29, name: "Potencias y Raíces", url: "https://example.com/potencias" },
+      { id: 30, name: "Expresiones Algebraicas", url: "https://example.com/expresiones" },
+      { id: 31, name: "Teorema de Pitágoras", url: "https://example.com/pitagoras" },
+      { id: 32, name: "Volumen y Superficie", url: "https://example.com/volumen" },
+      { id: 33, name: "Funciones Básicas", url: "https://example.com/funciones" },
+      { id: 34, name: "Trigonometría Inicial", url: "https://example.com/trigonometria" },
+      { id: 35, name: "Conjuntos y Lógica", url: "https://example.com/conjuntos" },
+      { id: 36, name: "Notación Científica", url: "https://example.com/cientifica" },
+      { id: 37, name: "Interpretación Gráfica", url: "https://example.com/interpretacion" },
+      { id: 38, name: "Problemas Aplicados", url: "https://example.com/aplicados" },
+      { id: 39, name: "Muestreo y Encuestas", url: "https://example.com/muestreo" },
+      { id: 40, name: "Transformaciones", url: "https://example.com/transformaciones" }
+    ]
+  },
+  "BASICO 2": {
+    title: "BÁSICO 2",
+    color: "from-purple-400 to-violet-500",
+    icon: "GraduationCap",
+    simulators: [
+      { id: 41, name: "Álgebra Intermedia", url: "https://example.com/algebra-int" },
+      { id: 42, name: "Ecuaciones Cuadráticas", url: "https://example.com/cuadraticas" },
+      { id: 43, name: "Sistemas de Ecuaciones", url: "https://example.com/sistemas-ec" },
+      { id: 44, name: "Desigualdades", url: "https://example.com/desigualdades" },
+      { id: 45, name: "Funciones Lineales", url: "https://example.com/lineales" },
+      { id: 46, name: "Geometría Analítica", url: "https://example.com/analitica" },
+      { id: 47, name: "Logaritmos", url: "https://example.com/logaritmos" },
+      { id: 48, name: "Progresiones", url: "https://example.com/progresiones" },
+      { id: 49, name: "Combinatoria", url: "https://example.com/combinatoria" },
+      { id: 50, name: "Probabilidad Intermedia", url: "https://example.com/prob-int" },
+      { id: 51, name: "Estadística Descriptiva", url: "https://example.com/descriptiva" },
+      { id: 52, name: "Matrices Básicas", url: "https://example.com/matrices" },
+      { id: 53, name: "Vectores en 2D", url: "https://example.com/vectores-2d" },
+      { id: 54, name: "Trigonometría Avanzada", url: "https://example.com/trig-av" },
+      { id: 55, name: "Cónicas", url: "https://example.com/conicas" },
+      { id: 56, name: "Optimización Básica", url: "https://example.com/optimizacion" },
+      { id: 57, name: "Modelado Matemático", url: "https://example.com/modelado" },
+      { id: 58, name: "Distribuciones", url: "https://example.com/distribuciones" },
+      { id: 59, name: "Inferencia Estadística", url: "https://example.com/inferencia" },
+      { id: 60, name: "Análisis de Datos", url: "https://example.com/analisis" }
+    ]
+  },
+  "4TO BACHILLERATO": {
+    title: "4TO BACHILLERATO",
+    color: "from-orange-400 to-red-500",
+    icon: "Award",
+    simulators: [
+      { id: 61, name: "Precálculo", url: "https://example.com/precalculo" },
+      { id: 62, name: "Funciones Avanzadas", url: "https://example.com/func-av" },
+      { id: 63, name: "Límites y Continuidad", url: "https://example.com/limites" },
+      { id: 64, name: "Derivadas Básicas", url: "https://example.com/derivadas" },
+      { id: 65, name: "Geometría del Espacio", url: "https://example.com/espacio" },
+      { id: 66, name: "Vectores en 3D", url: "https://example.com/vectores-3d" },
+      { id: 67, name: "Matrices Avanzadas", url: "https://example.com/matrices-av" },
+      { id: 68, name: "Determinantes", url: "https://example.com/determinantes" },
+      { id: 69, name: "Números Complejos", url: "https://example.com/complejos" },
+      { id: 70, name: "Polinomios", url: "https://example.com/polinomios" },
+      { id: 71, name: "Ecuaciones Paramétricas", url: "https://example.com/parametricas" },
+      { id: 72, name: "Coordenadas Polares", url: "https://example.com/polares" },
+      { id: 73, name: "Sucesiones y Series", url: "https://example.com/series" },
+      { id: 74, name: "Binomio de Newton", url: "https://example.com/binomio" },
+      { id: 75, name: "Estadística Inferencial", url: "https://example.com/inferencial" },
+      { id: 76, name: "Regresión Lineal", url: "https://example.com/regresion" },
+      { id: 77, name: "Análisis Combinatorio", url: "https://example.com/combinatorio" },
+      { id: 78, name: "Teoría de Juegos", url: "https://example.com/juegos-teoria" },
+      { id: 79, name: "Ecuaciones Diferenciales", url: "https://example.com/diferenciales" },
+      { id: 80, name: "Matemática Financiera", url: "https://example.com/financiera" }
+    ]
+  },
+  "5TO BACHILLERATO": {
+    title: "5TO BACHILLERATO",
+    color: "from-teal-400 to-green-500",
+    icon: "Trophy",
+    simulators: [
+      { id: 81, name: "Cálculo Diferencial", url: "https://example.com/calc-dif" },
+      { id: 82, name: "Cálculo Integral", url: "https://example.com/calc-int" },
+      { id: 83, name: "Ecuaciones Diferenciales Av.", url: "https://example.com/dif-av" },
+      { id: 84, name: "Análisis Real", url: "https://example.com/real" },
+      { id: 85, name: "Álgebra Lineal", url: "https://example.com/lineal" },
+      { id: 86, name: "Espacios Vectoriales", url: "https://example.com/vectoriales" },
+      { id: 87, name: "Transformaciones Lineales", url: "https://example.com/trans-lin" },
+      { id: 88, name: "Valores y Vectores Propios", url: "https://example.com/propios" },
+      { id: 89, name: "Cálculo Multivariable", url: "https://example.com/multivariable" },
+      { id: 90, name: "Integrales Múltiples", url: "https://example.com/multiples" },
+      { id: 91, name: "Campos Vectoriales", url: "https://example.com/campos" },
+      { id: 92, name: "Teoremas del Cálculo", url: "https://example.com/teoremas" },
+      { id: 93, name: "Análisis Complejo", url: "https://example.com/complejo" },
+      { id: 94, name: "Teoría de Números", url: "https://example.com/numeros-teoria" },
+      { id: 95, name: "Topología Básica", url: "https://example.com/topologia" },
+      { id: 96, name: "Matemática Discreta", url: "https://example.com/discreta" },
+      { id: 97, name: "Optimización Avanzada", url: "https://example.com/opt-av" },
+      { id: 98, name: "Análisis Numérico", url: "https://example.com/numerico" },
+      { id: 99, name: "Investigación Operativa", url: "https://example.com/operativa" },
+      { id: 100, name: "Matemática Aplicada", url: "https://example.com/aplicada" }
+    ]
+  }
+};
+
+export const welcomeMessage = {
+  title: "¡Bienvenido a Math Explorers!",
+  subtitle: "Tu plataforma de aprendizaje matemático interactivo",
+  message: "Elige un nivel educativo para comenzar a practicar con simuladores interactivos y hacer que aprender matemáticas sea divertido y emocionante. ¡Cada simulador está diseñado para mejorar tu comprensión y habilidades matemáticas!",
+  buttonText: "¡Comenzar a Explorar!"
+};
