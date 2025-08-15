@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WelcomePopup from "./components/WelcomePopup";
 import GradeCard from "./components/GradeCard";
 import GradePage from "./components/GradePage";
+import { Toaster } from "./components/ui/toaster";
 import { gradeData } from "./data/mockData";
 import { Calculator, Users, Sparkles } from "lucide-react";
 
