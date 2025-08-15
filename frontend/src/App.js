@@ -114,8 +114,11 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
+      <Toaster />
     </div>
   );
 }
+
+export default App;
 
 export default App;
